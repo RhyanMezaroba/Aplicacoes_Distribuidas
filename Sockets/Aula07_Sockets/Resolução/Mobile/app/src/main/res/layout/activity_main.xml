@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8FAFC">
+
+    <!-- IDENTIFICAÇÃO OBRIGATÓRIA EXIGIDA PELO EXERCÍCIO -->
+    <TextView
+        android:id="@+id/txtIdentificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvido por: Rhyan Mezaroba"
+        android:textColor="#1B365D"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="#E2E8F0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Distribuída (JSON)"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0F172A"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/edtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Primeiro número"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/edtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Segundo número"
+        android:inputType="numberSigned" />
+
+    <Spinner
+        android:id="@+id/spnOperacao"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/operacoes"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular via Socket"
+        android:backgroundTint="#1B365D"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado: -"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1E293B"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
