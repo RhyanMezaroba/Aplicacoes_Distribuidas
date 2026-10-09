@@ -1,0 +1,8 @@
+# pastas ocultas e ambientes virtuais
+.venv/
+
+# pastas específicas do projeto
+sockets/calculadora/
+sockets/chats/chat_client_multiuser.py
+sockets/chats/chat_server_multiuser.py
+.env
