@@ -3,7 +3,7 @@ import json
 from urllib.parse import quote_plus
 
 endereco = "Rua Paese, 198, Videira, SC, Brazil"
-api_key = 'AIzaSyBsbsxRz3S-0jMX17RB6-CbtjNHgH4qCxk'
+api_key = '[ENCRYPTION_KEY]'
 
 # Codifica o endereço para URL (substitui espaços por %20, etc.)
 endereco_codificado = quote_plus(endereco)
