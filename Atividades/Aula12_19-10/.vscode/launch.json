@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Cliente",
+            "request": "launch",
+            "mainClass": "calculadora.cliente.Cliente",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "Servidor",
+            "request": "launch",
+            "mainClass": "calculadora.servidor.Servidor",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "JanelaSimplesClassico",
+            "request": "launch",
+            "mainClass": "callbackseventoslisterners.JanelaSimplesClassico",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "JanelaSimplesModernoLambda",
+            "request": "launch",
+            "mainClass": "callbackseventoslisterners.JanelaSimplesModernoLambda",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "Cliente(1)",
+            "request": "launch",
+            "mainClass": "encomendas.cliente.Cliente",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "Servidor(1)",
+            "request": "launch",
+            "mainClass": "encomendas.servidor.Servidor",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "Cliente(2)",
+            "request": "launch",
+            "mainClass": "pedidos.Cliente",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "Servidor(2)",
+            "request": "launch",
+            "mainClass": "pedidos.Servidor",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraServidorAvancado",
+            "request": "launch",
+            "mainClass": "sockets.servidoravancado.CalculadoraServidorAvancado",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraServidorPool",
+            "request": "launch",
+            "mainClass": "sockets.servidorsimples.CalculadoraServidorPool",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraServidorSimples",
+            "request": "launch",
+            "mainClass": "sockets.servidorsimples.CalculadoraServidorSimples",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraServidorThread",
+            "request": "launch",
+            "mainClass": "sockets.servidorsimples.CalculadoraServidorThread",
+            "projectName": "Aula12_19-10_6477e319"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraServidorVirtualThreads",
+            "request": "launch",
+            "mainClass": "sockets.servidorsimples.CalculadoraServidorVirtualThreads",
+            "projectName": "Aula12_19-10_6477e319"
+        }
+    ]
+}
